@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HackathonENAC</string>
+    <string name="broadcast_correction">Broadcast Correction</string>
+    <string name="get_accurate_position">Get Accurate Position</string>
 </resources>

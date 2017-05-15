@@ -4,6 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.xiao.hackathonenac.MainActivity">
+    tools:context="com.example.xiao.hackathonenac.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/get_accurate_position"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="@string/broadcast_correction"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
