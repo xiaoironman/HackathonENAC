@@ -1,5 +1,6 @@
 package com.example.xiao.hackathonenac;
 
+import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
@@ -7,7 +8,7 @@ import android.widget.LinearLayout;
  * Created by RayanO on 15/05/2017.
  */
 
-public class LoginActivity {
+public class LoginActivity extends MainActivity{
 
 
     private EditText nameText, phoneNumberText;
@@ -23,5 +24,12 @@ public class LoginActivity {
         // Initialize Login Btn Loader
         loginBtnLoader = (LinearLayout) findViewById(R.id.login_btn_loader);
     }*/
+
+    public void onLoginButtonClick(View view) {
+        // Check if Location Settings are enabled, if yes then attempt
+        // DriverLogin
+        checkForLocationSettings();
+    }
+
 
 }

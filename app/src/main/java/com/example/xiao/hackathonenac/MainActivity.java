@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void checkForLocationSettings() {
+    //Set for publi in order to use it in the LoginActivity
+    public void checkForLocationSettings() {
         // Check for Location permission
         if (!HyperTrack.checkLocationPermission(this)) {
             HyperTrack.requestPermissions(this);
